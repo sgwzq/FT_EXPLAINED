@@ -1,5 +1,5 @@
 # FT_EXPLAINED
-This Program is to explain how Fourier Transform is used in NMR. 
+This Program is to explain how Fourier Transfer is used in NMR. 
 The repository contains source code for the FT_EXPLAINED web application.
 The main program together with its Python code is inside `flask_app.py` file.
 Web pages are in "templates" directory, and style sheets in "static" directory.
