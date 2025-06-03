@@ -34,3 +34,7 @@ You can install these package using your package manager.
 ### Finally run the program as a host
 Run `flask_app.py` and open the link in the browser ( such as 
 `http://127.0.0.1:5000` ) and enjoy!
+
+## Screenshots
+![image](https://github.com/user-attachments/assets/50cdd28a-b9bf-4e51-93c4-4b235f389510)
+After Installation, it will work like this.
