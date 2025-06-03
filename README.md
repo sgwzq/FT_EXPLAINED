@@ -42,3 +42,9 @@ Run `flask_app.py` and open the link in the browser ( such as
 ## Screenshots
 ![image](https://github.com/user-attachments/assets/50cdd28a-b9bf-4e51-93c4-4b235f389510)
 After Installation, it will work like this.
+
+## References
+The author's paper is available on [THIS](https://pubs.acs.org/doi/10.1021/acs.jchemed.9b00502)
+site.\
+DOI link: [https://doi.org/10.1021/acs.jchemed.9b00502](https://doi.org/10.1021/acs.jchemed.9b00502)\
+Cite this: J. Chem. Educ. 2020, 97, 1, 263–264
