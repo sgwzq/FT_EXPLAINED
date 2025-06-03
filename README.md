@@ -3,11 +3,11 @@ Contains source code for the FT_EXPLAINED web application.
 The main Python code is inside "flask_app.py" file.
 Web pages are in "templates" directory, and style sheets in "static" directory.
 The app needs these requirements:
-1. Python 
-2. Matplotlib 
-3. Numpy
-4. Scipy
-5. Flask 
+1. [Python](https://www.python.org)
+2. [Matplotlib](https://matplotlib.org)
+3. [Numpy](https://numpy.org)
+4. [Scipy](https://scipy.org)
+5. [Flask](https://flask.palletsprojects.com/)
 
 ## Install with your PC as local host
 ### First, install python
