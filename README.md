@@ -1,6 +1,7 @@
 # FT_EXPLAINED
-Contains source code for the FT_EXPLAINED web application.
-The main Python code is inside "flask_app.py" file.
+This Program is to explain how Fourier Transform is used in NMR. 
+The repository contains source code for the FT_EXPLAINED web application.
+The main program together with its Python code is inside `flask_app.py` file.
 Web pages are in "templates" directory, and style sheets in "static" directory.
 The app needs these requirements:
 1. [Python](https://www.python.org)
