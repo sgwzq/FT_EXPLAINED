@@ -32,6 +32,10 @@ For Linux users,
 You can install these package using your package manager.
 
 ### Finally run the program as a host
+Click the green Code button on this page, 
+Download zip file, uncompress it. 
+(or run `git clone` if you have `git` installed on your computer.)\
+After that,\
 Run `flask_app.py` and open the link in the browser ( such as 
 `http://127.0.0.1:5000` ) and enjoy!
 
