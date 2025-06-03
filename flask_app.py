@@ -109,7 +109,7 @@ def draw_freq():
     ax_FT.set_ylabel("Relative Intensity",y=0.8)
     ax_FT.set_title("4. Spectrum")
     ax_FT.tick_params(axis='y',which='both',left=True,labelleft=True)
-    ax_FT.grid(b=True,linestyle="--",which="both")
+    ax_FT.grid(visible=True,linestyle="--",which="both")
 
     colors=["green","black","red","cyan"]
     FID=np.zeros(session["nb_points"])
@@ -239,9 +239,9 @@ def step_1():
                 posmult[nn]=ii
             if ii <0:
                 negmult[nn]=ii
-        posinteg[i]=np.trapz(posmult,t)
-        neginteg[i]=np.trapz(negmult,t)
-        integ[i]=np.trapz(mult[i],t)
+        posinteg[i]=np.trapezoid(posmult,t)
+        neginteg[i]=np.trapezoid(negmult,t)
+        integ[i]=np.trapezoid(mult[i],t)
         if freq<=session["freq_min"]:
             n=i
     ax_FT.set_ylim(integ.min()-(integ.max()-integ.min())*0.05,integ.max()+(integ.max()-integ.min())*0.4)
