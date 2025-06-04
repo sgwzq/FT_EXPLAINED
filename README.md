@@ -9,6 +9,7 @@ The app needs these requirements:
 3. [Numpy](https://numpy.org)
 4. [Scipy](https://scipy.org)
 5. [Flask](https://flask.palletsprojects.com/)
+
 (All has been tested successful on `Python 3.13.2` and the latest version of these libs.) 
 ## Install with your PC as local host
 ### First, install python
